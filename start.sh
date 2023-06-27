@@ -1,5 +1,4 @@
-# 배포 자동화 파일
-#!/bin/sh 위치에 생성
+#!/bin/sh 
 
 echo "==> Migration 파일 생성"
 yes | python manage.py makemigrations --settings=config.deploy.settings
